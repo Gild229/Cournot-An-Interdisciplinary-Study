@@ -27,5 +27,10 @@ for **COMSCI/ECON 206 – Problem Set 1** .
    In VSCode Terminal: otree zipserver
 3. Enter http://localhost:8000 to play the Cournot game.
   
+## Software and Tools
+
+- [NashPy](https://nashpy.readthedocs.io/) – Python library for computing equilibria in 2-player games.
+- [Game Theory Explorer](https://gte-games.com/) – for extensive form modeling.
+- [oTree](https://www.otree.org/) – for behavioral experiments.
 
 
