@@ -9,4 +9,5 @@ This folder contains the theoretical foundation and references for the Cournot d
   - Vives (1999), *Oligopoly Pricing: Old Ideas and New Tools* — Chapters 2 & 3 (Cournot model, best-response functions).
   - Eichberger et al. (1993), *Game Theory* — pp. 1065–1075 (Nash equilibrium in strategic form).
 
+##References:
 
