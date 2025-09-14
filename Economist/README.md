@@ -10,4 +10,4 @@ This folder contains the theoretical foundation and references for the Cournot d
   - Eichberger et al. (1993), *Game Theory* — pp. 1065–1075 (Nash equilibrium in strategic form).
 
 ##References:
-
+See [`refs/`](./refs) for the references
