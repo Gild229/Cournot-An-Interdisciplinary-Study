@@ -29,8 +29,9 @@ for **COMSCI/ECON 206 – Problem Set 1** .
   
 ## Software and Tools
 
-- [NashPy](https://nashpy.readthedocs.io/) – Python library for computing equilibria in 2-player games.
-- [Game Theory Explorer](https://gte-games.com/) – for extensive form modeling.
-- [oTree](https://www.otree.org/) – for behavioral experiments.
+- [NashPy](https://nashpy.readthedocs.io/)
+- [oTree](https://www.otree.org/) 
+- [Game Theory Explorer](https://gte-games.com/) 
+
 
 
