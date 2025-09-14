@@ -33,3 +33,19 @@ This folder documents **Part 3** of the project: oTree implementation, human ses
    otree devserver
 4. Navigate to http://localhost:8000 to access the app, create a session, and run the Cournot demo.
 
+## Session Description
+
+- **Players:** Two human participants (paired anonymously)  
+- **Game:** Cournot duopoly, simultaneous quantity choice  
+- **Action space:** \( q_i \in \{0, \dots, 30\} \)  
+- **Rounds:** 3  
+- **Payoff:**  
+  \[
+  p = 60 - (q_1 + q_2), \quad \pi_i = p \cdot q_i
+  \]
+
+### Observed Behavior
+
+- **Round 1:** Player A started with lower production (10 units) to keep price high, while Player B consistently chose higher production (25–30).  
+- **Round 2:** Player A maintained low output, but Player B escalated further.  
+- **Round 3:** Player A increased production, converging toward Player B’s high-output strategy, resulting in lower prices but more balanced quantities.
