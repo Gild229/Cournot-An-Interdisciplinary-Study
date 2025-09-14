@@ -46,6 +46,6 @@ This folder documents **Part 3** of the project: oTree implementation, human ses
 
 ### Observed Behavior
 
-- **Round 1:** Player A started with lower production (10 units) to keep price high, while Player B consistently chose higher production (25–30).  
-- **Round 2:** Player A maintained low output, but Player B escalated further.  
-- **Round 3:** Player A increased production, converging toward Player B’s high-output strategy, resulting in lower prices but more balanced quantities.
+- **Round 1:** Player A started with lower production (10 units) to keep the price high, while Player B consistently chose higher production (25–30).  
+- **Round 2:** Player A increased output, but Player B escalated further.  
+- **Round 3:** Player A chose nearly the highest production, converging toward Player B’s high-output strategy, resulting in lower prices but more balanced quantities.
