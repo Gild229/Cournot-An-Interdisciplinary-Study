@@ -2,8 +2,7 @@
 
 > Course: **COMSCI/ECON 206**  
 > Author: **Yanzhen Liu**  
-> Last update: YYYY-MM-DD • Snapshot commit: `<hash>`  ← _用 `git rev-parse --short HEAD` 替换_
-
+> Last update: 2025.09.21 
 ---
 
 ## 0) Overview
