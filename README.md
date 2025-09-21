@@ -1,37 +1,61 @@
-# Cournot-An-Interdisciplinary-Study
+# Cournot & Auctions — Problem Set 1 (Revised) + Problem Set 2
 
-Interdisciplinary study of a 2-player Cournot game 
-for **COMSCI/ECON 206 – Problem Set 1** .
-
----
-
-## 📂 Repository Structure
-- **economist/** – Theoretical background, references, and supporting materials. (Q ∈ [0, 30], price = 60 − (q₁+q₂))
-- **computational_scientist/** – Jupyter notebook (`notebook.ipynb`) implementing Nash equilibrium computation with NashPy, plus GTE screenshots.
-- **behavioral_scientist/** – oTree application (zip), session screenshots, and large language model (LLM) transcripts.
+> Course: **COMSCI/ECON 206**  
+> Author: **Yanzhen Liu**  
+> Last update: YYYY-MM-DD • Snapshot commit: `<hash>`  ← _用 `git rev-parse --short HEAD` 替换_
 
 ---
 
-## 🔄 How to Reproduce
+## 0) Overview
 
-### 1. Theory (Economist)
-- `economist/README.md`.
+This repo collects all revised materials for **Problem Set 1 (Cournot)** and the **mechanism-design work for Problem Set 2 (common-value auctions)**, including:
+- Updated PS1 manuscript (continuous vs. discrete clarification), **Acknowledgments**, and **Point-by-Point Response**.
+- Computation assets (Nashpy/QuantEcon, GTE screenshots), **oTree app** and session logs.
+- PS2 auction design (control/treatments), prompts, LLM sessions, and metrics/plots.
 
-### 2. Computational Scientist
-- Open `computational_scientist/notebook.ipynb` in **Google Colab** .
-- Run all cells to reproduce payoff matrices, equilibrium computation, and GTE results.
+> 📌 According to the course rubric, all materials are indexed from the root README, and supporting assets are placed under the role-based subfolders.
 
-### 3. Behavioral Scientist
-1. Unzip `opc-new_project.otreezip`.
-2. Run locally with oTree 5.x:
-   In VSCode Terminal: otree zipserver
-3. Enter http://localhost:8000 to play the Cournot game.
-  
-## Software and Tools
+---
 
-- [NashPy](https://nashpy.readthedocs.io/)
-- [oTree](https://www.otree.org/) 
-- [Game Theory Explorer](https://gte-games.com/) 
+## 1) Repository Structure
 
 
+Quick links (fill in when available):
+- 📄 **PS1 PDF**: `Economist/ps1_main.pdf`  
+- 🧩 **oTree package**: `behavioral_scientist/opc-new_project.otreezip`  
+- 🖼 **Flowcharts**: `Economist/figs/ps1_roadmap.pdf`, `mechanism_design/figs/ps2_roadmap.pdf`  
+- 📊 **PS2 metrics**: `mechanism_design/figs/` (shading / neg-profit / revenue)  
+- 🧾 **Refs**: `references/` 
 
+---
+
+## 2) Problem Set 1 — What changed & where to find it
+
+- **Acknowledgments** and **Appendix: Point-by-Point Response** are integrated in the PS1 LaTeX/PDF.  
+- Clarified that the continuous Cournot model has **unique** NE (20,20) while the discrete grid `{10,20,30}` yields **three** pure NE — a **discretization artifact** for visualization/implementation (GTE/oTree).  
+- Standardized figure captions with **Source:** lines and improved resolution.
+
+Open:
+- `Economist/README.md` — mini-index for theory sections and references  
+- `computational_scientist/README.md` — notebook + screenshots mapping  
+- `behavioral_scientist/README.md` — oTree install, session screenshots, LLM transcript
+
+---
+
+## 3) How to reproduce
+
+### 3.1 PS1 (Cournot)
+
+**A) Code (Nashpy/Colab)**
+1. Open `computational_scientist/notebook.ipynb` (Colab ok).  
+2. Run all cells to generate payoff matrices for `{10,20,30}` and compute equilibria.  
+3. Exports will be placed under `computational_scientist/screenshots/` (matrices/solver).
+
+**B) GTE (optional)**
+- Use the GTE project file (if included under `Economist/figs/`) to export tree, solver panel, and 3×3 strategic form.
+
+**C) Build PS1 PDF (LaTeX)**
+```bash
+cd Economist
+# if you have tex sources:
+# latexmk -pdf ps1_main.tex
