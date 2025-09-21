@@ -1,0 +1,29 @@
+# References
+
+- Campbell, Colin M., John H. Kagel, and Dan Levin. 1999. “The Winner’s Curse and Public Information in Common Value Auctions: Reply.” *American Economic Review* 89 (1): 325–34. https://doi.org/10.1257/aer.89.1.325.
+- Milgrom, Paul R., and Robert J. Weber. 1982. “A Theory of Auctions and Competitive Bidding.” *Econometrica* 50 (5): 1089–1122. https://doi.org/10.2307/1911865.
+- Wilson, Robert. 1977. “A Bidding Model of Perfect Competition.” *The Review of Economic Studies* 44 (3): 511–18. https://doi.org/10.2307/2296904.
+- Camerer, Colin F. 2003. *Behavioral Game Theory: Experiments in Strategic Interaction*. Princeton, NJ: Princeton University Press. CiNii record: https://ci.nii.ac.jp/ncid/BA6165074X.
+- Nash, John F. 1950. “Equilibrium Points in N-Person Games.” *Proceedings of the National Academy of Sciences* 36 (1): 48–49. https://doi.org/10.1073/pnas.36.1.48.
+- Osborne, Martin J., and Ariel Rubinstein. 1994. *A Course in Game Theory*. Cambridge, MA: MIT Press.
+- Selten, Reinhard. 1975. “Reexamination of the Perfectness Concept for Equilibrium Points in Extensive Games.” *International Journal of Game Theory* 4 (1): 25–55. https://doi.org/10.1007/BF01766400.
+- Vives, Xavier. 1999. *Oligopoly Pricing: Old Ideas and New Tools*. Cambridge, MA: MIT Press.
+- Roughgarden, Tim. 2016. *Twenty Lectures on Algorithmic Game Theory*. Cambridge: Cambridge University Press. https://doi.org/10.1017/CBO9781316779309.
+- Shoham, Yoav, and Kevin Leyton-Brown. 2009. *Multiagent Systems: Algorithmic, Game-Theoretic, and Logical Foundations*. Cambridge: Cambridge University Press.
+- Avis, David, Gabriel D. Rosenberg, Rahul Savani, and Bernhard von Stengel. 2009. “Enumeration of Nash Equilibria for Two-Player Games.” *Economic Theory* 42 (1): 9–37. https://doi.org/10.1007/s00199-009-0449-x.
+
+## Software and Computational Tools
+- Chen, Daniel L., Martin Schonger, and Chris Wickens. 2016. “oTree—An Open-Source Platform for Laboratory, Online, and Field Experiments.” *Journal of Behavioral and Experimental Finance* 9: 88–97. https://doi.org/10.1016/j.jbef.2015.12.001.
+- Savani, Rahul, and Bernhard von Stengel. 2015. “Game Theory Explorer—Software for the Applied Game Theorist.” *Computational Management Science* 12 (1): 5–33. https://doi.org/10.1007/s10287-014-0211-2.
+- Knight, Vincent, and Owen Campbell. 2021. “Nashpy: A Python Library for the Computation of Nash Equilibria.” *Journal of Open Source Software* 6 (59): 3075. https://doi.org/10.21105/joss.03075.
+- Knight, Vincent. 2021. *Nashpy: A Python Library for the Computation of Equilibria of 2-Player Strategic Games*, version 0.0.28. Documentation. https://nashpy.readthedocs.io/en/stable/.
+- Sargent, Thomas J., and John Stachurski. 2021. *Quantitative Economics (Python)*, version 0.5.1. https://quantecon.org/quantecon-py/.
+
+## Model/Platform Documentation (Online)
+- Anthropic. 2024. “Claude 4.0 Sonnet—Model Card & Documentation.” https://www.anthropic.com/.
+- OpenAI. 2024–2025. “ChatGPT / GPT-4 Family—Model and Platform Documentation.” https://platform.openai.com/docs.
+- DeepSeek-AI. 2024–2025. “DeepSeek Models—Documentation.” https://www.deepseek.com/.
+
+## Prize Summaries (Context)
+- The Nobel Prize. 2007. “The Prize in Economic Sciences 2007 — Mechanism Design.” https://www.nobelprize.org/prizes/economic-sciences/2007/summary/.
+- The Nobel Prize. 2020. “The Prize in Economic Sciences 2020 — Auction Theory.” https://www.nobelprize.org/prizes/economic-sciences/2020/summary/.
