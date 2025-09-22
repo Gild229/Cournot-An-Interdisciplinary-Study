@@ -46,7 +46,7 @@ Open:
 ### 3.1 PS1 (Cournot)
 
 **A) Code (Nashpy/Colab)**
-1. Open `computational_scientist/notebook.ipynb` (Colab ok).  
+1. Open `computational_scientist/notebook.ipynb`.  
 2. Run all cells to generate payoff matrices for `{10,20,30}` and compute equilibria.  
 3. Exports will be placed under `computational_scientist/screenshots/` (matrices/solver).
 
