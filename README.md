@@ -52,7 +52,7 @@ This project synthesizes my PS1 and PS2 work into a single, auditable pipeline. 
 
 ---
 
-## Navigation Instructions (where to find things)
+## Navigation Instructions
 
 - Equilibria computation & benchmarks  
   - Code & notebooks: `computational_scientist/`  
@@ -69,7 +69,7 @@ This project synthesizes my PS1 and PS2 work into a single, auditable pipeline. 
 
 ---
 
-## Method & Data (concise)
+## Method & Data
 
 - Environment: CV-FPSB with \(V \sim U[1000,1500]\); 3 bidders; each observes private signal \(s_i\).  
 - Treatments: Control / Winner’s-Curse Reminder (pre-bid nudge) / Public Signal (noisy common signal).  
@@ -78,7 +78,7 @@ This project synthesizes my PS1 and PS2 work into a single, auditable pipeline. 
 
 ---
 
-## Reproduction Map (5-minute quick start)
+## Reproduction Map
 
 1. Shading distribution (Control vs Treatment)  
    - Script: `computational_scientist/scripts/plot_shading.py`  
@@ -105,5 +105,4 @@ This project synthesizes my PS1 and PS2 work into a single, auditable pipeline. 
 
 ---
 
-## Repository Structure (role-based)
 
