@@ -5,7 +5,7 @@ Design and evaluate mechanisms that **reduce the winner’s curse** in common-va
 
 ---
 
-## 1) Environment (default)
+## 1) Environment
 - Auction: common-value, first-price, sealed-bid (CV-FPSB).
 - Value: \(V \sim U[1000,1500]\).
 - Signals: \(s_i = V + \varepsilon_i\), \(\varepsilon_i \sim \mathcal N(0,\sigma^2)\) i.i.d.
@@ -18,7 +18,7 @@ Files:
 
 ---
 
-## 2) Treatments (one factor at a time)
+## 2) Treatments
 
 **Do NOT confound model and treatment in the same comparison; hold one fixed.**  
 This follows the ceteris-paribus design required in the feedback. :contentReference[oaicite:4]{index=4}
@@ -35,7 +35,7 @@ Recommended run plans:
 
 ---
 
-## 3) LLM Agent Settings (documented for transparency)
+## 3) LLM Agent Settings
 - Model / version; decoding temperature; max tokens; seeds.  
 - Output contract: “print a single number (your bid)”.  
 - Logging schema (CSV):  
