@@ -1,7 +1,0 @@
-Introduction — Instructions
-You have been randomly and anonymously paired with another participant. Each of you will represent a firm. Both firms manufacture the same product.
-The two of you decide simultaneously and independently how many units to manufacture. Your choices can be any number from 0 to 30. All produced units will be sold, but the more is produced, the lower the unit selling price will be.
-The unit selling price is: Unit selling price = 60 – Units produced by your firm – Units produced by the other firm
-Your profit is therefore: Your profit = Unit selling price × Units produced by your firm
-
-we will play this game together for 3 rounds. You need to choose a number and store it. After you tell me "I have stored the chosen number", I will input mine. Then, we will see the results.
