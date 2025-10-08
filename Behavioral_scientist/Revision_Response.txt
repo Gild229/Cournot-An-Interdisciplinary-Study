@@ -1,0 +1,50 @@
+# Response Letter — Point-by-Point Revisions
+
+This letter summarizes how the revised submission addresses each comment.
+
+---
+
+## 1) Analytical vs. computational equilibria (PS1: Cournot)
+**Comment.** “You derive the unique Cournot NE \((20,20)\), but the GTE/Colab grid \(\{10,20,30\}\) shows three equilibria.”
+
+**Response.** I added a short subsection explaining that with \(p(Q)=60-Q\) and zero marginal cost, best responses intersect uniquely at \((20,20)\) in the continuous model. When the strategy set is **discretized** to \(\{10,20,30\}\) for demonstration, discrete best replies near 20 can select neighboring grid points, producing three pure NE \((10,30),(20,20),(30,10)\). All imply \(Q=40\) and \(p=20\). This is a **discretization artifact**, not a contradiction.
+
+---
+
+## 2) oTree citation and adaptation
+**Comment.** “Cite oTree and describe deviations.”
+
+**Response.** I added a formal oTree citation and recorded a single adaptation: restrict actions to \(\{10,20,30\}\) so the oTree normal form matches the GTE \(3\times3\) strategic form. I implemented \(p(Q)=\max\{0,60-(q_1+q_2)\}\) and \(\pi_i=p\cdot q_i\), and displayed \((q_1,q_2,p,\pi_1,\pi_2)\) per round. I also included a brief note on tractability and behavioral clarity.
+
+---
+
+## 3) Software/model citations
+**Comment.** “Formally cite all software and LLM interfaces.”
+
+**Response.** I expanded the references to include QuantEcon (v0.5.1), Nashpy (JOSS article + software/version entry), Game Theory Explorer (Savani & von Stengel 2015), and the model documentation (Anthropic/Claude, OpenAI/ChatGPT, DeepSeek), consistently in Chicago style. Camerer (2003) is cited via the CiNii record as requested.
+
+---
+
+## 4) Replicability & figure mapping
+**Comment.** “Provide a reproducibility checklist mapping figures to code/exports.”
+
+**Response.** Figure captions now include **Source** lines (Colab cell / GTE export / oTree page). The root `README.md` contains a figures↔code/data mapping and run instructions. A fuller table can be added to the repo if needed.
+
+---
+
+## 5) LLM transparency (prompts, rotation, logs)
+**Comment.** “Document prompts, treatment rotation, and decision logs.”
+
+**Response.** I included exact control and reminder prompts, adopted a **rotating treatment** design (only one model treated per round), saved raw outputs, and reported metrics: **shading** \((s-b)\), **negative-profit rate**, **revenue**, and **overbid frequency**.
+
+---
+
+## 6) PS2 mechanism design: rationale & hypotheses
+**Comment.** “Support your rationale with literature; state which variation induces stronger winner’s curse and why.”
+
+**Response.** PS2 uses a **common-value, first-price** auction. Hypotheses: larger \(\sigma\) (noise) or larger \(n\) (bidders) strengthen the winner’s curse; public information mitigates it. Theoretical foundation: Wilson (1977); Milgrom & Weber (1982). Experimental/behavioral evidence: Campbell–Kagel–Levin (1999); Camerer (2003).
+
+---
+
+### Closing
+These changes are reflected in the updated manuscript, figures, and repository structure (role-based subfolders and PS2 assets).
